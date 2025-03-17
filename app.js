@@ -3,5 +3,6 @@ let amigos = [];
 
 //Agrega nombres//
 Function agregarAmigos() {
-
+njhbnhjbbjh
 }
+
