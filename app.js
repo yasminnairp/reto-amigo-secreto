@@ -26,3 +26,15 @@ function mostrarListaAmigo(){
         listaAmigos.appendChild(listaHTML);
     }
 }
+
+//Sortea los amigos
+function sortearAmigo(){
+    let cantidadAmigos = amigos.length;
+    if (cantidadAmigos === 0) {
+        alert("Por favor, inserta un nombre");
+    } else {
+        let indiqueAmigo = Math.floor(Math.random() * cantidadAmigos);
+        let resultadoHTML = document.querySelector("#resultado");
+        resultadoHTML.innerHTML = amigos[indiqueAmigo];
+    }
+ }
